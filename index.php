@@ -19,33 +19,6 @@
 		<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 		<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
 		<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
-
-		<!-- GOOGLE FONTS -->
-		<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600' rel='stylesheet' type='text/css'>
-
-		<!-- BOOTSTRAP CSS -->
-		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-
-		<!-- POP UP IMAGE AND VIDEO -->
-		<link rel="stylesheet" href="css/plagin-css/plagin.css">
-
-		<!-- FONT ICONS -->
-		<link rel="stylesheet" href="icon/styles.css">
-
-		<!--   COUSTOM CSS link  -->
-		<link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" href="css/responsive.css">
-
-		<!-- COLOR -->
-		<link rel="stylesheet" href="css/colors/color-1.css" type="text/css" id="color-scheme" />
-		<!-- <link rel="stylesheet" href="css/colors/color-2.css" type="text/css"/> -->
-		<!-- <link rel="stylesheet" href="css/colors/color-3.css" type="text/css"/> -->
-
-		<!--[if lt IE 9]>
-			<script src="js/plagin-js/html5shiv.js"></script>
-			<script src="js/plagin-js/respond.min.js"></script>
-		<![endif]-->
-
 	</head>
 	<body>
 		<!-- Start: Navbar Area
@@ -663,17 +636,26 @@
 		<!-- End: Footer Section 1
 		================================== -->
 
-
+		<!-- CSS
+		========================================-->
+		<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/plagin.css" />
+		<link rel="stylesheet" href="css/styles.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/responsive.css" />
+		<link rel="stylesheet" href="css/color-1.css" type="text/css" id="color-scheme" />
 
 		<!-- SCRIPTS
 		========================================-->
-		<script src="js/plagin-js/jquery-1.11.3.js"></script>
-		<script src="bootstrap/js/bootstrap.min.js"></script>
-		<script src="js/plagin-js/plagin.js"></script>
-
-		<!-- Custom Script
-		==========================================-->
+		<script src="js/jquery-1.11.3.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/plagin.js"></script>
 		<script src="js/custom-scripts.js"></script>
+		<!--[if lt IE 9]>
+			<script src="js/html5shiv.js"></script>
+			<script src="js/respond.min.js"></script>
+		<![endif]-->
 
 		<!-- Google Analytics Tracking
 		==========================================-->
