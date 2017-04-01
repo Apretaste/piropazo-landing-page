@@ -5,12 +5,12 @@
 <html lang="en">
 	<head>
 		<!-- TITLE OF SITE -->
-		<title>Piropazo - La red de amor de Cuba</title>
+		<title>Parejas en Cuba | Piropazo</title>
 
 		<!-- Meta -->
 		<meta charset="utf-8">
-		<meta name="description" content="Tenemos la red de parejas mas grande de Cuba, con Cubanos dentro y fuera de la isla. Conectamos mas de 50,000 personas entre si, para que encuentren amor y amistad, y te presentamos gente fantastica y alocada que no debes pasar por alto." />
-		<meta name="keywords" content="piropazo, chat cubano,cuba facebook,facebook de cuba,personas en cuba,chat con cubanos,la gente de cuba,gente en cuba,cuba people to people,contacto con mujeres cubanas,conocer mujeres en cuba,chat de cuba,chat cubano chat cuba,amigos cubanos,conocer gente en Cuba,people to people cuba,conocer cubanas,conocer mujeres de cuba,facebook cubano,personas de cuba,cuba y su gente,cuba personas,person to person cuba,cuba people to people travel,people to people tours to cuba,travel to cuba people to people,cuba person to person travel,cuba person to person,meet people in Cuba,contactos con cubanas,contactos cubanas" />
+		<meta name="description" content="Conoce mujeres y chicos en Cuba y encuentra el amor y la amistad. Tenemos la red de busqueda de parejas mas grande de Cuba, para chat con Cubanos dentro y fuera de Cuba." />
+		<meta name="keywords" content="piropazo, chat cubano,chat con cubanos,conocer mujeres en cuba,chat de cuba,chat cubano chat cuba,amigos cubanos,conocer gente en Cuba,conocer cubanas,conocer mujeres de cuba,contactos con cubanas,contactos cubanas,contacto con mujeres cubanas" />
 		<meta name="developer" content="salvi@apretaste.com">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -30,7 +30,7 @@
 					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
 
 						<!-- TEMPLATE LOGO LIGHT -->
-						<a class="navbar-brand light-logo" href="index.html"><img src="images/logo-color.png" alt="" class="img-responsive"></a>
+						<a class="navbar-brand light-logo" href="index.php"><img src="images/logo-color.png" alt="Parejas en Cuba" class="img-responsive"></a>
 
 					</div> <!-- End: .col-xs-3 -->
 					<div class="col-lg-9 col-md-9 col-sm-9 col-xs-6">
@@ -65,8 +65,8 @@
 							<div class="part-inner text-center mr-small">
 
 								<!-- Main Logo -->
-								<a href="index.html" class="logo-link">
-									<img src="images/logo-color.png" alt="" class="img-responsive logo">
+								<a href="index.php" class="logo-link">
+									<img src="images/logo-color.png" alt="Parejas en Cuba" class="img-responsive logo">
 								</a>
 
 								<!--  Header SubTitle Goes here -->
@@ -79,9 +79,9 @@
 
 								<!-- Mobile App Image -->
 								<div class="image-group">
-									<img src="images/home-left.png" alt="" class="home-left img-responsive">
-									<img src="images/home-center.png" alt="" class="home-center img-responsive">
-									<img src="images/home-right.png" alt="" class="home-right img-responsive">
+									<img src="images/home-left.png" alt="Parejas en Cuba" class="home-left img-responsive">
+									<img src="images/home-center.png" alt="Parejas en Cuba" class="home-center img-responsive">
+									<img src="images/home-right.png" alt="Parejas en Cuba" class="home-right img-responsive">
 								</div>
 
 							</div>
@@ -149,7 +149,7 @@
 								<!-- Features Image  -->
 								<div class="features-image">
 
-									<img src="images/feature-phone.png" alt="">
+									<img src="images/feature-phone.png" alt="Parejas en Cuba">
 
 								</div>  <!-- End: .features-image  -->
 
@@ -480,27 +480,27 @@
 							<div class="swiper-wrapper">
 
 								<div class="swiper-slide">
-									<div class="item"><img src="images/app-screenshots/1.png" alt=""></div>
+									<div class="item"><img src="images/app-screenshots/1.png" alt="Parejas en Cuba"></div>
 								</div>
 
 								<div class="swiper-slide">
-									<div class="item"><img src="images/app-screenshots/2.png" alt=""></div>
+									<div class="item"><img src="images/app-screenshots/2.png" alt="Parejas en Cuba"></div>
 								</div>
 
 								<div class="swiper-slide">
-									<div class="item"><img src="images/app-screenshots/3.png" alt=""></div>
+									<div class="item"><img src="images/app-screenshots/3.png" alt="Parejas en Cuba"></div>
 								</div>
 
 								<div class="swiper-slide">
-									<div class="item"><img src="images/app-screenshots/4.png" alt=""></div>
+									<div class="item"><img src="images/app-screenshots/4.png" alt="Parejas en Cuba"></div>
 								</div>
 
 								<div class="swiper-slide">
-									<div class="item"><img src="images/app-screenshots/5.png" alt=""></div>
+									<div class="item"><img src="images/app-screenshots/5.png" alt="Parejas en Cuba"></div>
 								</div>
 
 								<div class="swiper-slide">
-									<div class="item"><img src="images/app-screenshots/6.png" alt=""></div>
+									<div class="item"><img src="images/app-screenshots/6.png" alt="Parejas en Cuba"></div>
 								</div>
 							</div>
 
@@ -567,7 +567,7 @@
 									<div class="swiper-slide">
 										<blockquote>“Piropazo es en serio la red más grande que he visto de parejas en Cuba. Si estás buscando tu próxima aventura loca, o el amor de su vida, de verdad es perfecto para tí, Hay de todo un poco.”</blockquote>
 										<p class="client-profile">
-											<img src="images/clients-pic/client-1.png" alt="" class="client-img img-responsive">
+											<img src="images/clients-pic/client-1.png" alt="Parejas en Cuba" class="client-img img-responsive">
 											<span class="detail-group text-left">
 												<span class="name">Juan Cruz</span>
 												<span class="position">Febrero 10, 2017</span>
@@ -578,7 +578,7 @@
 									<div class="swiper-slide">
 										<blockquote>“Parece imposible conocer gente en Cuba a través de una app, como si vivieran en otro lugar del mundo. Me he vuelto una fanática de Piropazo, y lo uso como otra red social. ¡Gracias!”.</blockquote>
 										<p class="client-profile">
-											<img src="images/clients-pic/client-2.png" alt="" class="client-img img-responsive">
+											<img src="images/clients-pic/client-2.png" alt="Parejas en Cuba" class="client-img img-responsive">
 											<span class="detail-group text-left">
 												<span class="name">Julia Fuentes</span>
 												<span class="position">Febrero 12, 2017</span>
@@ -589,7 +589,7 @@
 									<div class="swiper-slide">
 										<blockquote>“Gracias a Piropazo he conocido a alguien fenomenal que ha cambiado mi vida. Es una app que vale le pena usar si quiere darle un giro a su vida y conocer gente marvillosa.”</blockquote>
 										<p class="client-profile">
-											<img src="images/clients-pic/client-3.png" alt="" class="client-img img-responsive">
+											<img src="images/clients-pic/client-3.png" alt="Parejas en Cuba" class="client-img img-responsive">
 											<span class="detail-group text-left">
 												<span class="name">Pedro Ledezmo</span>
 												<span class="position">Febrero 2, 2017</span>
@@ -617,8 +617,8 @@
 			<div class="container">
 				<div class="row section-separator">
 					<div class="col-sm-12 text-center">
-						<a href="index.html" class="logo-link">
-							<img style="width:50px;" src="images/logo-color.png" alt="" class="img-responsive logo">
+						<a href="index.php" class="logo-link">
+							<img style="width:50px;" src="images/logo-color.png" alt="Parejas en Cuba" class="img-responsive logo">
 						</a>
 						<p class="sub-title">&iquest;Tienes Preguntas?</p>
 						<p><a href="mailto:soporte@apretaste.com">soporte@apretaste.com</a></p>
