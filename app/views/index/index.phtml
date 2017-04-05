@@ -639,31 +639,12 @@
 		========================================-->
 		<link href="<?=$min->minify('css/responsive.css');?>" rel="stylesheet" type="text/css" />
 		<link href="<?=$min->minify('css/bootstrap.min.css');?>" rel="stylesheet" type="text/css" />
-<!--
 		<link href="<?=$min->minify('css/style.css');?>" rel="stylesheet" type="text/css" />
 		<link href="<?=$min->minify('css/styles.css');?>" rel="stylesheet" type="text/css" />
 		<link href="<?=$min->minify('css/plagin.css');?>" rel="stylesheet" type="text/css" />
 		<link href="<?=$min->minify('css/color-1.css');?>" rel="stylesheet" type="text/css" />
 		<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600' rel='stylesheet' type='text/css'>
--->
-		<!-- LOAD ASYNC CSS
-		========================================-->
-		<script>
-			function loadCss(filename) {
-				var file = document.createElement('link');
-				file.rel = 'stylesheet';
-				file.href = filename
-				var doc = document.getElementsByTagName('head')[0];
-				doc.parentNode.insertBefore(file, doc);
-			}
-			window.addEventListener('load', function(){
-				loadCss('<?=$min->minify('css/style.css');?>');
-				loadCss('<?=$min->minify('css/styles.css');?>');
-				loadCss('<?=$min->minify('css/color-1.css');?>');
-				loadCss('<?=$min->minify('css/plagin.css');?>');
-				loadCss('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600');
-			});
-		</script>
+
 
 		<!-- SCRIPTS
 		========================================-->
