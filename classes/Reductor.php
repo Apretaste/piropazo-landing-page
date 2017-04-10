@@ -43,4 +43,28 @@ class Reductor
 		// return http path to the minified file
 		return "{$wwwhttp}/min/$fileName";
 	}
+
+	/**
+	 * minify html content
+	 *
+	 * @param string $html
+	 * @return string
+	 */
+	public function minifyHTML($html)
+	{
+		// get the paths
+		$di = \Phalcon\DI\FactoryDefault::getDefault();
+		$wwwroot = $di->get('path')['root'];
+
+		// create the hash of a name
+		$tmpPath = "$wwwroot/public/min/".md5($html).".html";
+
+		// if the exist, load from cache
+		if(file_exists($tmpPath)) return file_get_contents($tmpPath);
+
+		// else minify and return
+		$min = PHPWee\Minify::html($html);
+		file_put_contents($tmpPath, $min);
+		return $min;
+	}
 }

@@ -63,7 +63,11 @@ try
 
 	// Handle the request
 	$application = new Application($di);
-	echo $application->handle()->getContent();
+	$html = $application->handle()->getContent();
+
+	// minify the request and display
+	$reductor = new Reductor();
+	echo $reductor->minifyHTML($html);
 }
 catch(\Phalcon\Mvc\Dispatcher\Exception $e)
 {

@@ -6,6 +6,10 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit8c8ce6d25fe7f00eba8c30ef73640cc8
 {
+    public static $files = array (
+        '40cb4eccbfc3d833a9623c83ff8899a0' => __DIR__ . '/..' . '/searchturbine/phpwee-php-minifier/phpwee.php',
+    );
+
     public static $prefixLengthsPsr4 = array (
         'M' => 
         array (

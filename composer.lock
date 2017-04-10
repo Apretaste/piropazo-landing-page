@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "41c3449dc29931dd222ae26c9c4c5a40",
-    "content-hash": "a4df518374b366fb3951da525abbfd8d",
+    "hash": "181cc270ae90f9af6d2d0c68927c6572",
+    "content-hash": "3c2b3a2538c2bfeb8c7cfc43b478f0f5",
     "packages": [
         {
             "name": "matthiasmullie/minify",
@@ -112,12 +112,69 @@
                 "relative"
             ],
             "time": "2017-01-26 08:54:49"
+        },
+        {
+            "name": "searchturbine/phpwee-php-minifier",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/searchturbine/phpwee-php-minifier.git",
+                "reference": "cea1a7ae453071176f0469f246ea7b469e056432"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/searchturbine/phpwee-php-minifier/zipball/cea1a7ae453071176f0469f246ea7b469e056432",
+                "reference": "cea1a7ae453071176f0469f246ea7b469e056432",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "phpwee.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD"
+            ],
+            "authors": [
+                {
+                    "name": "Search Turbine - Open Source PHP Dev Team",
+                    "email": "community@searchturbine.com",
+                    "homepage": "http://searchturbine.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A PHP minifier for HTML, CSS and JS files.",
+            "homepage": "http://searchturbine.com/php/phpwee",
+            "keywords": [
+                "CSS3",
+                "HTML5",
+                "JS",
+                "compress",
+                "css",
+                "free",
+                "html",
+                "javascript",
+                "min",
+                "minify",
+                "open source",
+                "php",
+                "php5",
+                "phpwee"
+            ],
+            "time": "2015-03-28 08:57:12"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "searchturbine/phpwee-php-minifier": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
