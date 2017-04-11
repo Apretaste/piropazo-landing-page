@@ -8,7 +8,7 @@ class Reductor
 	 * Minify a CSS or JS file
 	 *
 	 * @author salvipascual
-	 * @param String $source full path the file
+	 * @param String $source: path the file
 	 * @return String
 	 */
 	public function minify($source)
@@ -66,5 +66,43 @@ class Reductor
 		$min = PHPWee\Minify::html($html);
 		file_put_contents($tmpPath, $min);
 		return $min;
+	}
+
+	/**
+	 * Merge several files into one, and minify. Use CSS or JS, but not both
+	 *
+	 * @param Array $files: list if paths
+	 * @param String $ext: 'css' or 'js'
+	 * @return String
+	 */
+	public function compile($files, $ext)
+	{
+		// get the paths
+		$di = \Phalcon\DI\FactoryDefault::getDefault();
+		$wwwroot = $di->get('path')['root'];
+
+		// compile into a single file
+		$compilation = "";
+		foreach ($files as $file)
+		{
+			$compilation .= file_get_contents("$wwwroot/public/$file")."\n\n";
+		}
+
+		// create the temporal path to file
+		$fileName = md5($compilation).".$ext";
+		$tmpFile = "$wwwroot/public/min/$fileName";
+
+		// minify and cache compiles file
+		if( ! file_exists($tmpFile))
+		{
+			file_put_contents($tmpFile, $compilation);
+			if($ext == "css") $minifier = new Minify\CSS($tmpFile);
+			if($ext == "js") $minifier = new Minify\JS($tmpFile);
+			$minifier->minify($tmpFile);
+		}
+
+		// return path to compiles and minified file
+		$wwwhttp = $di->get('path')['http'];
+		return "$wwwhttp/min/$fileName";
 	}
 }
