@@ -1,6 +1,5 @@
 {
 	"require": {
-		"matthiasmullie/minify": "1.3.44",
-		"searchturbine/phpwee-php-minifier": "dev-master"
+		"matthiasmullie/minify": "1.3.44"
 	}
 }

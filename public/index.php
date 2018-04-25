@@ -34,12 +34,6 @@ try
 		);
 	});
 
-	// Making the config global
-/*
-	$di->set('config', function () {
-		return new ConfigIni('../configs/config.ini');
-	});
-*/
 	// Setup the view component for Analytics
 	$di->set('view', function () {
 		$view = new View();
@@ -48,26 +42,9 @@ try
 		return $view;
 	});
 
-	// Setup the database service
-/*
-	$config = $di->get('config');
-	$di->set('db', function () use ($config) {
-		return new \Phalcon\Db\Adapter\Pdo\Mysql(array(
-			"host"     => $config['database']['host'],
-			"username" => $config['database']['user'],
-			"password" => $config['database']['password'],
-			"dbname"   => $config['database']['database']
-		));
-	});
-*/
-
 	// Handle the request
 	$application = new Application($di);
-	$html = $application->handle()->getContent();
-
-	// minify the request and display
-	$reductor = new Reductor();
-	echo $reductor->minifyHTML($html);
+	echo $application->handle()->getContent();
 }
 catch(\Phalcon\Mvc\Dispatcher\Exception $e)
 {
