@@ -26,10 +26,3 @@ ExpiresByType application/javascript "access plus 604800 seconds"
 RewriteCond %{SERVER_NAME} piropazo.com
 RewriteCond %{HTTP_HOST} ^www\.
 RewriteRule ^(.*)$ http://piropazo.com/ [R=301,L]
-
-#
-# Force https
-#
-#RewriteCond %{SERVER_NAME} piropazo.com
-#RewriteCond %{HTTPS} !=on
-#RewriteRule .* https://%{SERVER_NAME}%{REQUEST_URI} [R=301,L]
