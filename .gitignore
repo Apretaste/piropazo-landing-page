@@ -8,3 +8,5 @@ vendor/*
 .buildpath
 .project
 composer.lock
+.idea
+.idea/*
