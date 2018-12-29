@@ -1131,7 +1131,7 @@
   content: "\e167";
 }
 
-iframe.video {
+iframe#video {
   padding-top: 125px;
   border: 0px;
   margin-top:50px;
