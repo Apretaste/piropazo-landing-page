@@ -9,3 +9,4 @@ nbproject/*
 composer.lock
 .idea
 .idea/*
+vendor/*
