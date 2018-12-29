@@ -3,7 +3,6 @@
 public/min/*
 logs/*
 nbproject/*
-vendor/*
 .settings/*
 .buildpath
 .project
