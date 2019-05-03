@@ -10,4 +10,3 @@ composer.lock
 .idea
 .idea/*
 vendor/*
-vendor
